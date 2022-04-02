@@ -14,5 +14,7 @@ namespace WebHouse.Core.ServiceInterface
         Task<House> Add(HouseDto dto);
         Task<House> Edit(Guid id);
         Task<House> Update(HouseDto dto);
+        // FOR TEST
+        Task<House> GetAsync(Guid id);
     }
 }

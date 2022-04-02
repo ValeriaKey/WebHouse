@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHouse", "WebHouse\WebHouse.csproj", "{53379A2D-3669-4D9A-9339-79B2C5DEF7D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHouse", "WebHouse\WebHouse.csproj", "{53379A2D-3669-4D9A-9339-79B2C5DEF7D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHouse.Data", "WebHouse.Data\WebHouse.Data.csproj", "{5F962B0B-3B12-4955-806A-7BA2FADB14B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHouse.Data", "WebHouse.Data\WebHouse.Data.csproj", "{5F962B0B-3B12-4955-806A-7BA2FADB14B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHouse.Core", "WebHouse.Core\WebHouse.Core.csproj", "{E9E9A79B-AF68-4981-8B39-35A71436BAC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHouse.Core", "WebHouse.Core\WebHouse.Core.csproj", "{E9E9A79B-AF68-4981-8B39-35A71436BAC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHouse.ApplicationServices", "WebHouse.ApplicationServices\WebHouse.ApplicationServices.csproj", "{9CE18823-2E2C-4614-AAB7-885365FD6F9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHouse.ApplicationServices", "WebHouse.ApplicationServices\WebHouse.ApplicationServices.csproj", "{9CE18823-2E2C-4614-AAB7-885365FD6F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHouse.Test", "WebHouse.Test\WebHouse.Test.csproj", "{58BBB7F1-DB06-4BDC-B0E1-2CDD6F10364E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9CE18823-2E2C-4614-AAB7-885365FD6F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CE18823-2E2C-4614-AAB7-885365FD6F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CE18823-2E2C-4614-AAB7-885365FD6F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BBB7F1-DB06-4BDC-B0E1-2CDD6F10364E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BBB7F1-DB06-4BDC-B0E1-2CDD6F10364E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BBB7F1-DB06-4BDC-B0E1-2CDD6F10364E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BBB7F1-DB06-4BDC-B0E1-2CDD6F10364E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

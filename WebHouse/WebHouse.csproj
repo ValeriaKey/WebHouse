@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebHouse.ApplicationServices\WebHouse.ApplicationServices.csproj" />
+    <ProjectReference Include="..\WebHouse.Data\WebHouse.Data.csproj" />
+  </ItemGroup>
+
 </Project>

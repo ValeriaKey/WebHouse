@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -8,6 +9,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebHouse.ApplicationServices.Services;
+using WebHouse.Core.ServiceInterface;
+using WebHouse.Data;
 
 namespace WebHouse
 {
@@ -24,6 +28,9 @@ namespace WebHouse
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<WebHouseDbContext>(options =>
+                options.UseSqlServer(Configuration["DefaultConnection"]));
+            services.AddScoped<IHouseService, HouseService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

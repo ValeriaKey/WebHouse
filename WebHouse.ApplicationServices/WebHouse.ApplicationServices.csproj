@@ -15,4 +15,9 @@
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\WebHouse.Core\WebHouse.Core.csproj" />
+	  <ProjectReference Include="..\WebHouse.Data\WebHouse.Data.csproj" />
+	</ItemGroup>
 </Project>
